@@ -51,5 +51,3 @@ while (true) {
     console.log(array);
   }
 }
-
-console.log("Trying my first command line push to repo");
