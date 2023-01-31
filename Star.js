@@ -4,7 +4,7 @@ const prompt = require("prompt-sync")({ sigint: true }); //Kallar på promt-sync
 let array = []; ///Skapar en tom array
 console.log(array); //Visar array i terminal
 
-// //2.Lägga till en karaktär
+// //2. Lägga till en karaktär
 let character = prompt("What character to do you wanna add?"); //Ställer fråga och lagrar den under Character
 array.push(character); //Lagrar svaret in i array
 console.log(array); //Visar uppdaterad array
