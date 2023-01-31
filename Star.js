@@ -51,3 +51,4 @@ while (true) {
     console.log(array);
   }
 }
+//TEST av ny commit!!!
