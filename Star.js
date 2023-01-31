@@ -47,7 +47,7 @@ while (true) {
   }
   let index = array.indexOf(input); //Söker igenom array för att se om namnet finns där.
   if (index >= 0) {
-    array.splice(index, 1); //Finns namnet så tas det bort genom splice.
+    array.splice(index, 1); //Finns namnet så tas det bort genom splice
     console.log(array);
   }
 }
