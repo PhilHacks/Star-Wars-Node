@@ -1,5 +1,4 @@
-const prompt = require("prompt-sync")({ sigint: true }); //Kallar på promt-sync
-
+const prompt = require("prompt-sync")({ sigint: true });
 //1.Visa en tom lista
 let array = []; ///Skapar en tom array
 console.log(array); //Visar array i terminal
