@@ -86,9 +86,3 @@ This format lays out clear instructions and breaks down the interaction into sim
 - **Language:** JavaScript
 - **Runtime Environment:** Node.js
 - **Dependency:** prompt-sync (for synchronous command line input)
-
-**Tips:**
-
-- To add characters, simply type their names when prompted.
-- To move or remove characters, you’ll need to know their index position in the array.
-- Make sure to have Node.js installed before trying to run the application.
