@@ -29,17 +29,40 @@
 
 Here’s how you can interact with the application:
 
-```bash
-# To start the application, run:
-node Star.js
+Certainly! Structuring the usage instructions in a step-by-step format and incorporating some Markdown enhancements can improve clarity and visual appeal. Here's an updated version:
 
-# Follow the command-line prompts to:
-# Add a single character
-# Add multiple characters
-# Remove a character by index
-# Move a character to a new index
-# Remove multiple characters by name
-```
+## How to Use
+
+Follow these steps to interact with the Star-Wars-Node application:
+
+1. **Start the Application:**
+   ```bash
+   node Star.js
+   ```
+   This command initiates the program and presents you with the command-line prompts.
+
+2. **Add a Character:**
+   - To add a single character, respond to the prompt:
+     ```bash
+     What character do you want to add?
+     ```
+   - To add multiple characters, continue entering names after each prompt until you press Enter twice to finish.
+
+3. **Remove Characters:**
+   - To remove a character by index:
+     ```bash
+     Delete a character by entering the index of it (0,1,2):
+     ```
+   - To remove multiple characters by name, input each name when prompted, and press Enter twice when done.
+
+4. **Move a Character:**
+   - To change the position of a character within the list:
+     ```bash
+     Enter the index of the character to move it:(0,1,2..)
+     Enter the new index for the character:(0,1,2..)
+     ```
+
+This format lays out clear instructions and breaks down the interaction into simple, ordered steps that are easy to follow.
 
 ## Project Structure
 
